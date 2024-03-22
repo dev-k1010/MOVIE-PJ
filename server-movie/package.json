@@ -1,0 +1,16 @@
+{
+  "name": "server-movie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  }
+}
